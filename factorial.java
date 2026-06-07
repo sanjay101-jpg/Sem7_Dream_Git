@@ -9,6 +9,7 @@ public class factorial {
     fact=fact*i;
     }
     System.out.print("ans:"+fact);
+    s.close();
     }
     
 }
