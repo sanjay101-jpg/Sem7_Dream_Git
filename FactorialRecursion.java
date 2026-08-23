@@ -1,20 +1,20 @@
 public class FactorialRecursion {
 
-    public static long factorial(int n) {
+    public static long factorial(int x) {
         // Base case
-        if (n == 0 || n == 1) {
+        if (x == 0 || x == 1) {
             return 1;
         }
 
         // Recursive case
-        return n * factorial(n - 1);
+        return x * factorial(x - 1);
     }
 
     public static void main(String[] args) {
-        int number = 5;
+        int n = 5;
 
-        long result = factorial(number);
+        long result = factorial(n);
 
-        System.out.println("Factorial of " + number + " is: " + result);
+        System.out.println("Factorial of " + n + " is: " + result);
     }
 }

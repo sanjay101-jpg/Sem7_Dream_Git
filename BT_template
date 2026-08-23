@@ -1,0 +1,26 @@
+void solve(...) {
+
+    // Base Case
+    if (solutionFound) {
+        // Save or print the solution
+        return;
+    }
+
+    // Try every possible choice
+    for (each choice) {
+
+        // Skip invalid choices
+        if (choice is not valid) {
+            continue;
+        }
+
+        // Choose
+        makeChoice();
+
+        // Explore
+        solve(...);
+
+        // Undo (Backtrack)
+        undoChoice();
+    }
+}
