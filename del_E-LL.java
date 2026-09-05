@@ -6,7 +6,7 @@ class del_E_LL {
     first.next=second;
     second.next=third;
     ListNode head=first;
-    while(head.next.next!=null){
+    while(head.next.next!=null){ 
         head=head.next;
     }
     head.next=null;

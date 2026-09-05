@@ -13,7 +13,7 @@ public class del_B {
     }
     System.out.print("null");
     }
-}
+} 
 class ListNode{
     int val;
     ListNode next;
